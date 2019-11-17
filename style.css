@@ -67,6 +67,10 @@ a img {
   display: none;
 }
 
+.mobilemenu.show {
+    display: flex;
+}
+
 nav {
   position: fixed;
   height: 150px;
