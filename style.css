@@ -1,4 +1,32 @@
 /* EVERY BODY YEAH */
+video {
+  width: 100%;
+  position: relative;
+  height: auto;
+  margin: auto;
+  z-index: 0;
+}
+
+.riddelvideo {
+  width: 100%;
+  position: relative;
+  height: auto;
+  margin: auto;
+  z-index: 0;
+  background-color: black;
+  opacity: 1;
+}
+
+#videosource {
+  width: 100%;
+  position: relative;
+  height: auto;
+  margin: auto;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+
 body {
   background-image: url("images/bg.jpg");
   background-position: center center;
@@ -10,11 +38,6 @@ body {
   background-color: #000;
 }
 
-video {
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
 
 footer {
   height: 80px;
@@ -35,6 +58,268 @@ a img {
   padding: 0;
   margin: 0;
   display: block;
+}
+
+embed {
+  width: 100%;
+  height: 700px;
+}
+
+.btn {
+  border: 2px solid white;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+#differenttext {
+    font-size: 20px;
+}
+
+.ikonsbg {
+  width: 100%;
+  position: relative;
+  height: auto;
+  margin: auto;
+  opacity: 0.7;
+}
+
+.toptext {
+  top: -30px;
+  position: absolute;
+  padding: 400px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  color: #fff;
+  font-family: roboto;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.booksdownload {
+  vertical-align: middle;
+  align-items: center;
+}
+
+.ikonstext {
+  top: -160px;
+  position: absolute;
+  padding: 410px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  color: #fff;
+  font-family: roboto;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  align-content: center;
+  padding: -300px;
+  z-index: 10;
+}
+
+#prototype {
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  color: white;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.header {
+  padding-top: 170px;
+}
+
+/* GALLERY ANIMATIONS */
+
+#imagefilter {
+  -webkit-animation: filter-animation 0.3s infinite;
+}
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(30deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+#frequency {
+  -webkit-animation: fi 3s infinite;
+}
+
+@-webkit-keyframes fi {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(30deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+#grannyfilter {
+  -webkit-animation: filter 1s infinite;
+}
+
+@-webkit-keyframes filter {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+#futurenotfound{
+  -webkit-animation: not 2s infinite;
+}
+
+@-webkit-keyframes not {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(120deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+
+#weaving, #apart, #falling, #belem, #gouge, #someone, #blanket, #illu, #marta, #one, #race, #droplet, #balance, #nothingness, #nowhere, #pig, #french, #falling, #disturb, #piss {
+  -webkit-animation: filter1288 2s infinite;
+}
+
+@-webkit-keyframes filter1288 {
+  0% {
+    -webkit-filter: brightness(1) saturate(1);
+  }
+
+  50% {
+    -webkit-filter: brightness(1.3) saturate(1.2);
+  }
+
+  100% {
+    -webkit-filter: brightness(1) saturate(1);
+  }
+}
+
+#kid, #tram, #light, #consume {
+  -webkit-animation: filter9 0.8s infinite;
+}
+
+@-webkit-keyframes filter9 {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+#legs {
+  -webkit-animation: filter918 2s infinite;
+}
+
+@-webkit-keyframes filter918 {
+  0% {
+    -webkit-filter: saturate(1);
+  }
+
+  50% {
+    -webkit-filter: saturate(1.4);
+  }
+
+  100% {
+    -webkit-filter: saturate(1);
+  }
+}
+
+
+#protest, #lunatic, #shopping, #dis, #advert, #darkness, #bullshit, #hope, #floating {
+  -webkit-animation: filter541 2s infinite;
+}
+
+@-webkit-keyframes filter541 {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+#tears, #vendas {
+  -webkit-animation: filter913 2s infinite;
+}
+
+@-webkit-keyframes filter913 {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(90deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+
+#futureback {
+  -webkit-animation: filter221 2s infinite;
+}
+
+@-webkit-keyframes filter221 {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(-100deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
 }
 
 
@@ -68,7 +353,7 @@ a img {
 }
 
 .mobilemenu.show {
-    display: flex;
+    display: block;
 }
 
 nav {

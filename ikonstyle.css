@@ -1,0 +1,273 @@
+/* EVERY BODY YEAH */
+video {
+  width: 100%;
+  position: relative;
+  height: auto;
+  margin: auto;
+  z-index: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: #000;
+}
+
+
+footer {
+  height: 80px;
+  width: 100%;
+  z-index: 100008;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: light;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding-top: 35px;
+}
+
+a img {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+embed {
+  width: 100%;
+  height: 800px;
+  padding-top: 135px;
+}
+
+.btn {
+  border: 2px solid white;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+#differenttext {
+    font-size: 20px;
+}
+
+.ikonsbg {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+  overflow: hidden;
+}
+
+#ikonstext1 {
+  margin: 50px;
+}
+
+.sometext {
+}
+
+#ikonstext12 {
+  padding-left: 200px;
+  padding-top: 200px;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: light;
+  color: #fff;
+}
+
+.toptext {
+  top: -30px;
+  position: absolute;
+  padding: 400px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  color: #fff;
+  font-family: roboto;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.booksdownload {
+  float: left;
+  vertical-align: middle;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+
+.booksdownload1 {
+  float: right;
+  padding-top: 230px;
+  padding-left: 100px;
+}
+
+
+.ikonstext {
+  top: -140px;
+  position: absolute;
+  padding: 360px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  color: #fff;
+  font-family: roboto;
+  font-weight: normal;
+  font-size: 18px;
+  z-index: 1;
+}
+
+
+.conceptart {
+  width: 100%;
+  padding-top: 50px;
+  height: auto;
+  text-align: center;
+}
+
+.conceptnew {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.overlay {
+  position: absolute;
+  align-content: center;
+  padding: -300px;
+  z-index: 10;
+}
+
+
+/* NAVY YMCA */
+
+.menu-icon {
+  opacity: 0;
+}
+
+.logo {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.logo:hover {
+  filter: invert(39%) sepia(17%) saturate(5741%) hue-rotate(219deg) brightness(67%) contrast(247%);
+  transition: 4s;
+}
+
+.logomobile {
+  display: none;
+}
+
+.logomobile:hover {
+  filter: invert(39%) sepia(17%) saturate(5741%) hue-rotate(219deg) brightness(67%) contrast(247%);
+  transition: 4s;
+}
+
+.mobilemenu {
+  display: none;
+}
+
+.mobilemenu.show {
+    display: block;
+}
+
+nav {
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #8a00ff;
+}
+
+ul.ulmobile {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+ul.ulmobile li {
+  padding: 20px;
+}
+
+@media(max-width: 960px) {
+
+  nav ul {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  nav.black ul {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .menu {
+    display: none;
+  }
+
+
+  .showing {
+    max-height: 20em;
+  }
+
+  .mobilemenu {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-top: 38px;
+    transition: 0.5s ease-in;
+  }
+
+  .logomobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+}
