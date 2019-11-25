@@ -11,6 +11,8 @@
   <link href="style.css" type="text/css" rel="stylesheet">
   <link href="grid-gallery.css" type="text/css" rel="stylesheet">
   <link href="hover.css" type="text/css" rel="stylesheet">
+  <link rel="prefetch" href="ikons.html">
+  <link rel="prefetch" href="index.html">
   <script>
     function toggle_mobilemenu() {
         var el = document.getElementsByClassName("mobilemenu")[0];
@@ -20,11 +22,7 @@
   <title>André Nussbaumer</title>
 </head>
 <header>
-  <div class="wrapper">
     <nav>
-      <div class="menu-icon">
-        <i class="fa fa-bars fa-2x"></i>
-      </div>
       <div class="logomobile" onClick="toggle_mobilemenu()">
         <img id="logomobile" src="images/logo.png"/>
       </div>
@@ -50,7 +48,8 @@
 </header>
 <body>
 <div class="riddelvideo">
-   <video source src="trailer.mp4" id=videosource autoplay loop></video>
+  <video autoplay muted loop id="videosource">
+  <source src="trailer.mp4" type="video/mp4">
 </div>
 <div class="toptext">
  <img src="logoriddel.png">

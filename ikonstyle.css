@@ -8,6 +8,10 @@ video {
 }
 
 body {
+  background-image: url("images/bg.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   width: 100%;
   height: auto;
   margin: auto;
@@ -63,9 +67,19 @@ embed {
 
 .ikonsbg {
   width: 100%;
+  position: relative;
+  height: auto;
+  margin: auto;
+  z-index: 0;
+  background-color: black;
+  opacity: 1;
+  overflow: hidden;
+}
+
+#forest {
+  width: 100%;
   height: auto;
   opacity: 0.3;
-  overflow: hidden;
 }
 
 #ikonstext1 {
@@ -76,10 +90,10 @@ embed {
 }
 
 #ikonstext12 {
-  padding-left: 200px;
-  padding-top: 200px;
+  padding-left: 410px;
+  padding-top: 30px;
   font-family: roboto;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: light;
   color: #fff;
 }
@@ -99,14 +113,15 @@ embed {
 
 .booksdownload {
   float: left;
+  text-align: center;
   vertical-align: middle;
   padding-top: 50px;
-  padding-left: 200px;
+  padding-left: 300px;
 }
 
 .booksdownload1 {
   float: right;
-  padding-top: 230px;
+  padding-top: 170px;
   padding-left: 100px;
 }
 
@@ -134,7 +149,6 @@ embed {
 }
 
 .conceptnew {
-  width: 100%;
   padding-top: 100px;
 }
 
@@ -185,6 +199,20 @@ nav {
   width: 100%;
   z-index: 10000;
   background-color: rgba(0, 0, 0, 0.8);
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    top: -20%;
+    width: 100%;
+  }
+
+  to {
+    top: 0%;
+    width: 100%;
+  }
 }
 
 nav ul {
@@ -204,6 +232,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
+  padding-top: 63px;
   padding-left: 80px;
   padding-right: 80px;
 }

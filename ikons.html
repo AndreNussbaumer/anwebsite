@@ -11,6 +11,8 @@
   <link href="ikonstyle.css" type="text/css" rel="stylesheet">
   <link href="grid-gallery.css" type="text/css" rel="stylesheet">
   <link href="hover.css" type="text/css" rel="stylesheet">
+  <link rel="prefetch" href="riddel.html">
+  <link rel="prefetch" href="index.html">
   <script>
     function toggle_mobilemenu() {
         var el = document.getElementsByClassName("mobilemenu")[0];
@@ -20,11 +22,7 @@
   <title>André Nussbaumer</title>
 </head>
 <header>
-  <div class="wrapper">
     <nav>
-      <div class="menu-icon">
-        <i class="fa fa-bars fa-2x"></i>
-      </div>
       <div class="logomobile" onClick="toggle_mobilemenu()">
         <img id="logomobile" src="images/logo.png"/>
       </div>
@@ -50,7 +48,7 @@
 </header>
 <body>
 <div class="ikonsbg">
-   <img src="Theikonsforest.jpg">
+   <img src="Theikonsforest.jpg" id='forest'>
 </div>
 <div class="ikonstext">
  <img src="logoikons.png">
@@ -58,7 +56,7 @@
  <div class="booksdownload">
    <img src="theikonsbooks.png">
  <div class="booksdownload1">
-   <a href="TheIkonsANobleCause.pdf" class="btn">PDF <b>Download!</b></a>
+   <a href="TheIkonsANobleCause.pdf" class="btn" target="_blank">PDF <b>Download!</b></a>
  </div>
  </div>
 </div>
