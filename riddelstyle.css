@@ -5,6 +5,7 @@ video {
   height: auto;
   margin: auto;
   z-index: 0;
+  overflow: hidden;
 }
 
 .riddelvideo {
@@ -33,6 +34,7 @@ body {
   height: auto;
   margin: auto;
   background-color: #000;
+  overflow: hidden;
 }
 
 
