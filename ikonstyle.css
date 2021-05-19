@@ -90,8 +90,8 @@ embed {
 }
 
 #ikonstext12 {
-  padding-left: 410px;
-  padding-top: 30px;
+  padding-left: 22vw;
+  padding-top: 3vh;
   font-family: roboto;
   font-size: 16px;
   font-weight: light;
@@ -298,5 +298,70 @@ ul.ulmobile li {
     vertical-align: middle;
     cursor: pointer;
   }
+
+  #logomobile {
+    margin-top: 25px;
+  }
+
+  .ikonsbg {
+    display: none;
+    overflow: hidden;
+  }
+
+  .booksdownload {
+    float: left;
+    vertical-align: middle;
+    padding-top: 5vh;
+    padding-left: 1vw;
+  }
+
+  .booksdownload1 {
+    padding-top: 15vh;
+    padding-right: 19vw;
+    text-align: center;
+  }
+
+
+  .ikonstext {
+    position: relative;
+    top: 20vh;
+    padding: 8vw;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: #fff;
+    font-family: roboto;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  #ikonstext12 {
+    position: relative;
+    top: 35vh;
+    padding-left: 16vw;
+    padding-top: 20vh;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: light;
+    color: #fff;
+  }
+
+  #ikons {
+    padding-top: 30vh;
+    width: 70%;
+    height: 70%;
+  }
+
+  .conceptnew {
+    width: 100%;
+    height: 100%;
+    padding-top: 5vh;
+  }
+
+
+
+
+
+
 
 }

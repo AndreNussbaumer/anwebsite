@@ -456,12 +456,14 @@ ul.ulmobile li {
     transition: 0.5s ease-in;
   }
 
+
   .logomobile {
     display: flex;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
     cursor: pointer;
+
   }
 
 }
@@ -506,6 +508,7 @@ ul.ulmobile li {
     flex: 50%;
     max-width: 50%;
   }
+
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -515,4 +518,15 @@ ul.ulmobile li {
     flex: 100%;
     max-width: 100%;
   }
+
+  #logomobile {
+    margin-top: 25px;
+  }
+
+  #myVideo {
+    width: 100%;
+    padding-top: 150px;
+  }
+
+
 }
