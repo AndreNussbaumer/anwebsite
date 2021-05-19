@@ -73,6 +73,7 @@ embed {
   overflow: hidden;
 }
 
+
 #forest {
   width: 100%;
   height: auto;
@@ -89,31 +90,11 @@ embed {
 }
 
 #fdtlogo {
+  top: 8vh;
   width: 30%;
   padding-left: 165px;
 }
 
-#ikonstext12 {
-  padding-left: 410px;
-  padding-top: 0px;
-  font-family: Baskerville;
-  font-size: 16px;
-  font-weight: light;
-  color: #fff;
-}
-
-.toptext {
-  top: -30px;
-  position: absolute;
-  padding: 400px;
-  text-align: center;
-  text-decoration: none;
-  justify-content: center;
-  color: #fff;
-  font-family: roboto;
-  font-size: 18px;
-  z-index: 1;
-}
 
 .booksdownload {
   float: left;
@@ -131,9 +112,10 @@ embed {
 
 
 .ikonstext {
-  top: -140px;
+  top: -2vh;
   position: absolute;
-  padding: 360px;
+  padding: 12vw;
+  left: 6.8vw;
   text-align: center;
   text-decoration: none;
   justify-content: center;
@@ -142,18 +124,6 @@ embed {
   font-weight: normal;
   font-size: 18px;
   z-index: 1;
-}
-
-
-.conceptart {
-  width: 100%;
-  padding-top: 50px;
-  height: auto;
-  text-align: center;
-}
-
-.conceptnew {
-  padding-top: 100px;
 }
 
 .overlay {
@@ -301,6 +271,54 @@ ul.ulmobile li {
     justify-content: center;
     vertical-align: middle;
     cursor: pointer;
+  }
+
+  #logomobile {
+    margin-top: 25px;
+  }
+
+  .ikonsbg {
+    display: none;
+    overflow: hidden;
+  }
+
+  .booksdownload {
+    position: relative;
+    padding: 10vw;
+    right: 6vw;
+  }
+
+  .booksdownload1 {
+    position: relative;
+    bottom: 10vh;
+    right: 20vw;
+    text-align: center;
+  }
+
+
+  .ikonstext {
+    position: relative;
+    top: 9vh;
+    padding: 3vw;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: #fff;
+    font-family: roboto;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  #ikonstext1 {
+    position: relative;
+    right: 10vw;
+    padding-top: 10vh;
+    padding-left: 12vw;
+  }
+
+  #fdtlogo {
+    right: 25vw;
+    position: relative;
   }
 
 }
